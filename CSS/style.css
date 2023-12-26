@@ -1,0 +1,45 @@
+
+
+
+body{
+    background-color:rgb(17, 35, 90) ;
+    
+}
+.container{
+    margin-top: 50px;
+}
+form{
+    background-color: rgb(89, 111, 183);
+}
+@font-face {
+    font-family: headingfont  ;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+h1{
+    font-size: 50px;
+    font-family: headingfont;
+    color:white
+
+    
+}   
+.form-control:focus{
+    border: 3px solid rgb(89, 111, 183);
+    box-shadow: 5px solid rgb(89, 111, 183); 
+    outline: 3px solid rgb(89, 111, 183) ;
+    background-color: rgb(89, 111, 183);
+};
+
+  .form-control{
+    border: 3px solid rgb(89, 111, 183);
+    box-shadow: 5px solid rgb(89, 111, 183); 
+    outline: 3px solid rgb(89, 111, 183) ;
+   accent-color:  rgb(89, 111, 183); ;
+  }
+.myinfo{
+    font-size: 20px;
+    font-family: headingfont;
+    color: #BF3131; 
+    display: none;
+}
+
+
